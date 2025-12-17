@@ -12,9 +12,30 @@ const categories = [
     icon: 'Flower2',
     color: 'bg-green-100 text-green-700',
     exercises: [
-      { name: 'Прогрессивная мышечная релаксация', duration: '15 мин', level: 'Начальный' },
-      { name: 'Визуализация спокойного места', duration: '10 мин', level: 'Начальный' },
-      { name: 'Сканирование тела', duration: '20 мин', level: 'Средний' },
+      { 
+        name: 'Прогрессивная мышечная релаксация', 
+        duration: '15 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/86HUctvvMjg',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3',
+        description: 'Техника последовательного напряжения и расслабления мышц тела для глубокого отдыха'
+      },
+      { 
+        name: 'Визуализация спокойного места', 
+        duration: '10 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/ZToicYcHIOU',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/03/10/audio_4b636f9b58.mp3',
+        description: 'Мысленное путешествие в спокойное место для снятия стресса и тревоги'
+      },
+      { 
+        name: 'Сканирование тела', 
+        duration: '20 мин', 
+        level: 'Средний',
+        videoUrl: 'https://www.youtube.com/embed/1nZEdqcGVzo',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2021/08/04/audio_d1718ab41b.mp3',
+        description: 'Практика осознанного внимания к ощущениям в разных частях тела'
+      },
     ]
   },
   {
@@ -23,9 +44,30 @@ const categories = [
     icon: 'Wind',
     color: 'bg-blue-100 text-blue-700',
     exercises: [
-      { name: 'Медитация осознанности', duration: '10 мин', level: 'Начальный' },
-      { name: 'Любящая доброта', duration: '15 мин', level: 'Средний' },
-      { name: 'Медитация на дыхание', duration: '5 мин', level: 'Начальный' },
+      { 
+        name: 'Медитация осознанности', 
+        duration: '10 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/O-6f5wQXSu8',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/01/18/audio_0694e45c91.mp3',
+        description: 'Базовая практика присутствия в моменте здесь и сейчас'
+      },
+      { 
+        name: 'Любящая доброта', 
+        duration: '15 мин', 
+        level: 'Средний',
+        videoUrl: 'https://www.youtube.com/embed/sz7cpV7ERsM',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/08/02/audio_2dae0cfdf7.mp3',
+        description: 'Медитация для развития сострадания к себе и другим'
+      },
+      { 
+        name: 'Медитация на дыхание', 
+        duration: '5 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/SEfs5TJZ6Nk',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3',
+        description: 'Концентрация внимания на естественном дыхании'
+      },
     ]
   },
   {
@@ -34,9 +76,30 @@ const categories = [
     icon: 'Heart',
     color: 'bg-emerald-100 text-emerald-700',
     exercises: [
-      { name: 'Поза ребёнка', duration: '5 мин', level: 'Начальный' },
-      { name: 'Приветствие солнцу', duration: '15 мин', level: 'Средний' },
-      { name: 'Йога-нидра', duration: '30 мин', level: 'Продвинутый' },
+      { 
+        name: 'Поза ребёнка', 
+        duration: '5 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/2MN9lBu72IU',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2021/08/04/audio_d1718ab41b.mp3',
+        description: 'Успокаивающая поза для расслабления спины и снятия напряжения'
+      },
+      { 
+        name: 'Приветствие солнцу', 
+        duration: '15 мин', 
+        level: 'Средний',
+        videoUrl: 'https://www.youtube.com/embed/73sjOu0g58E',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/03/10/audio_4b636f9b58.mp3',
+        description: 'Динамическая последовательность асан для пробуждения энергии'
+      },
+      { 
+        name: 'Йога-нидра', 
+        duration: '30 мин', 
+        level: 'Продвинутый',
+        videoUrl: 'https://www.youtube.com/embed/M0u9GST_j3s',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/01/18/audio_0694e45c91.mp3',
+        description: 'Глубокое расслабление через управляемую медитацию лёжа'
+      },
     ]
   },
   {
@@ -45,9 +108,30 @@ const categories = [
     icon: 'Waves',
     color: 'bg-cyan-100 text-cyan-700',
     exercises: [
-      { name: 'Дыхание 4-7-8', duration: '5 мин', level: 'Начальный' },
-      { name: 'Диафрагмальное дыхание', duration: '10 мин', level: 'Начальный' },
-      { name: 'Альтернативное дыхание', duration: '8 мин', level: 'Средний' },
+      { 
+        name: 'Дыхание 4-7-8', 
+        duration: '5 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/gz4G31LGyog',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/08/02/audio_2dae0cfdf7.mp3',
+        description: 'Техника ритмичного дыхания для быстрого успокоения'
+      },
+      { 
+        name: 'Диафрагмальное дыхание', 
+        duration: '10 мин', 
+        level: 'Начальный',
+        videoUrl: 'https://www.youtube.com/embed/1Dv-ldGLumM',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2021/08/04/audio_d1718ab41b.mp3',
+        description: 'Глубокое дыхание животом для снижения стресса'
+      },
+      { 
+        name: 'Альтернативное дыхание', 
+        duration: '8 мин', 
+        level: 'Средний',
+        videoUrl: 'https://www.youtube.com/embed/8VwufJrUhic',
+        audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3',
+        description: 'Попеременное дыхание ноздрями для баланса энергии'
+      },
     ]
   },
 ];
@@ -62,6 +146,8 @@ const quotes = [
 export default function Index() {
   const [activeTab, setActiveTab] = useState('home');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedExercise, setSelectedExercise] = useState<any>(null);
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [userProgress] = useState({
     sessionsCompleted: 12,
@@ -155,7 +241,7 @@ export default function Index() {
                   ))}
                 </div>
               </>
-            ) : (
+            ) : !selectedExercise ? (
               <div className="animate-fade-in">
                 <Button
                   variant="ghost"
@@ -184,10 +270,12 @@ export default function Index() {
                         {category.exercises.map((exercise, idx) => (
                           <Card
                             key={idx}
-                            className="hover:shadow-lg transition-all duration-300 hover:scale-105"
+                            className="hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer"
+                            onClick={() => setSelectedExercise(exercise)}
                           >
                             <CardHeader>
                               <CardTitle className="text-lg">{exercise.name}</CardTitle>
+                              <CardDescription className="line-clamp-2">{exercise.description}</CardDescription>
                             </CardHeader>
                             <CardContent>
                               <div className="flex flex-col gap-3">
@@ -195,9 +283,19 @@ export default function Index() {
                                   <Icon name="Clock" size={16} />
                                   {exercise.duration}
                                 </div>
-                                <Badge variant="secondary" className="w-fit">
-                                  {exercise.level}
-                                </Badge>
+                                <div className="flex items-center gap-2">
+                                  <Badge variant="secondary" className="w-fit">
+                                    {exercise.level}
+                                  </Badge>
+                                  <Badge variant="outline" className="w-fit gap-1">
+                                    <Icon name="Video" size={12} />
+                                    Видео
+                                  </Badge>
+                                  <Badge variant="outline" className="w-fit gap-1">
+                                    <Icon name="Music" size={12} />
+                                    Звук
+                                  </Badge>
+                                </div>
                                 <Button className="w-full mt-2 gap-2">
                                   <Icon name="Play" size={16} />
                                   Начать
@@ -209,6 +307,100 @@ export default function Index() {
                       </div>
                     </div>
                   ))}
+              </div>
+            ) : (
+              <div className="animate-fade-in max-w-6xl mx-auto">
+                <Button
+                  variant="ghost"
+                  onClick={() => setSelectedExercise(null)}
+                  className="mb-6 gap-2"
+                >
+                  <Icon name="ArrowLeft" size={18} />
+                  Назад к упражнениям
+                </Button>
+
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                  <div className="lg:col-span-2 space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="text-2xl">{selectedExercise.name}</CardTitle>
+                        <CardDescription className="text-base">{selectedExercise.description}</CardDescription>
+                        <div className="flex gap-2 mt-4">
+                          <Badge variant="secondary">{selectedExercise.level}</Badge>
+                          <Badge variant="outline" className="gap-1">
+                            <Icon name="Clock" size={14} />
+                            {selectedExercise.duration}
+                          </Badge>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="aspect-video rounded-lg overflow-hidden bg-gray-100">
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src={selectedExercise.videoUrl}
+                            title={selectedExercise.name}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  <div className="space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="flex items-center gap-2">
+                          <Icon name="Music" size={20} className="text-green-600" />
+                          Успокаивающие звуки
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-4">
+                        <div className="p-4 bg-gradient-to-br from-green-50 to-blue-50 rounded-lg">
+                          <div className="flex items-center justify-center mb-4">
+                            <div className="relative">
+                              <div className={`w-20 h-20 rounded-full bg-green-100 flex items-center justify-center ${isPlayingAudio ? 'animate-pulse' : ''}`}>
+                                <Icon name="Music2" size={32} className="text-green-600" />
+                              </div>
+                              {isPlayingAudio && (
+                                <div className="absolute inset-0 rounded-full bg-green-200 animate-ping opacity-75" />
+                              )}
+                            </div>
+                          </div>
+                          <audio
+                            controls
+                            className="w-full"
+                            src={selectedExercise.audioUrl}
+                            onPlay={() => setIsPlayingAudio(true)}
+                            onPause={() => setIsPlayingAudio(false)}
+                            onEnded={() => setIsPlayingAudio(false)}
+                          >
+                            Ваш браузер не поддерживает аудио.
+                          </audio>
+                        </div>
+                        <p className="text-sm text-muted-foreground text-center">
+                          Включите фоновую музыку для более глубокого погружения в практику
+                        </p>
+                      </CardContent>
+                    </Card>
+
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="flex items-center gap-2">
+                          <Icon name="Lightbulb" size={20} className="text-amber-600" />
+                          Совет
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-sm">
+                          Найдите тихое место, где вас никто не побеспокоит. Примите удобное положение и следуйте инструкциям в видео.
+                        </p>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </div>
               </div>
             )}
           </div>
